@@ -32,5 +32,5 @@ To build the project for production:
 npm run build
 # or
 yarn build
-https://github.com/manojkiranti/super-test-form/assets/10720424/293a3b07-d1cf-430d-a94a-2c84b95021ec
+
 
