@@ -1,11 +1,5 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 ## Prerequisites
 
 Make sure you have Node.js and npm (or yarn) installed on your machine.
@@ -22,17 +16,17 @@ cd super-test-form
 
 Install dependencies:
 npm install
-# or
+#### or
 yarn
 
 To start the development server:
 npm run dev
-# or
+#### or
 yarn dev
 
 To build the project for production:
 npm run build
-# or
+#### or
 yarn build
 
 ![Super-Test-Form-1](https://github.com/manojkiranti/super-test-form/assets/10720424/0a2bcb35-ba5f-44cf-a7f8-4ac1f83a0426)
