@@ -6,28 +6,35 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
 
-## Expanding the ESLint configuration
+Make sure you have Node.js and npm (or yarn) installed on your machine.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js: [Download & Install Node.js](https://nodejs.org/)
+- npm: [Installing npm](https://www.npmjs.com/get-npm) (Included with Node.js)
+- yarn: [Installing yarn](https://classic.yarnpkg.com/en/docs/install/)
+### Installation
 
-- Configure the top-level `parserOptions` property like this:
+Clone this repository or use it as a template for your own project.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+git clone https://github.com/manojkiranti/super-test-form.git
+cd super-test-form
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install dependencies:
+npm install
+# or
+yarn
+
+To start the development server:
+npm run dev
+# or
+yarn dev
+
+To build the project for production:
+npm run build
+# or
+yarn build
+
 ![Super-Test-Form-1](https://github.com/manojkiranti/super-test-form/assets/10720424/0a2bcb35-ba5f-44cf-a7f8-4ac1f83a0426)
 ![Super-Test-Form-2](https://github.com/manojkiranti/super-test-form/assets/10720424/2df16c41-4ee8-454b-ba96-33033ea4f25c)
 ![Super-Test-Form-3](https://github.com/manojkiranti/super-test-form/assets/10720424/d038af09-5956-4573-88c5-5f76acdf59a1)
