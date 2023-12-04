@@ -1,0 +1,66 @@
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.45rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $secondary;
+  background-color: $white;
+  background-clip: padding-box;
+  border: 1px solid $white;
+  appearance: none;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:focus {
+    border-color: #b9bfc4;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  &.error {
+    border-color: red;
+  }
+}
+
+.form-select {
+  -moz-padding-start: calc(.9rem - 3px);
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: $white;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+  background-position: right .9rem center;
+  background-repeat: no-repeat;
+  background-size: 14px 10px;
+  border: 1px solid $white;
+  border-radius: 0;
+  color: $muted;
+  display: block;
+  width: 100%
+}
+
+.form-input {
+  position: relative;
+
+  .error-icon {
+    position: absolute;
+    right: 7px;
+    top: 12px;
+  }
+}
+
+.input-wrapper {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.6rem;
+}
+
+label {
+  color: $white;
+  display: block;
+  margin-bottom: 0.25rem;
+}

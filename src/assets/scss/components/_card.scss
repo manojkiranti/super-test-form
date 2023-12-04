@@ -1,0 +1,14 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $cardBg;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.35s ease-in;
+  border-radius: 20px;
+  padding: 38px 20px;
+}

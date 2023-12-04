@@ -1,0 +1,77 @@
+.register-form {
+  padding-top: 72px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.steps-indicator {
+  position: absolute;
+  left: 15px;
+  top: 150px;
+
+  @include respond-mediaQuery("large-screen") {
+    left: 6%;
+  }
+
+  @include respond-mediaQuery("ipad") {
+    top: 15px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+
+  .indicator {
+    display: block;
+    margin-bottom: 0.5rem;
+    padding-left: 30px;
+    position: relative;
+
+    @include respond-mediaQuery("ipad") {
+      padding-top: 1.6rem;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    &:before {
+      content: "";
+      width: 16px;
+      height: 16px;
+      background-color: $lightBg;
+      position: absolute;
+      left: 0;
+      top: 4px;
+      border-radius: 2px;
+
+      @include respond-mediaQuery("ipad") {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+    }
+
+    &.completed {
+      &:before {
+        background-color: $secondaryLight;
+      }
+
+    }
+
+    &.active {
+      &:before {
+        background-color: $primary;
+      }
+
+    }
+  }
+}
+
+.review-list {
+  >li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+    color: $mutedLight;
+  }
+}
