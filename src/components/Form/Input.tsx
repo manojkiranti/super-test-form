@@ -64,7 +64,7 @@ export const Input: React.FC<FormInputProps> = ({
   rows,
   ...otherProps
 }: FormInputProps) => (
-  <div className="form-group">
+  <div className="field-container">
     {label && <label htmlFor={name}>{label}</label>}
     <TextInput
       type={type}

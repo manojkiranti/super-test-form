@@ -16,7 +16,7 @@ export const SelectInput: React.FC<FormInputProps> = ({
   const registerField = register ? register(name) : {};
 
   return (
-    <div className="form-group">
+    <div className="field-container">
       {label && <label>{label}</label>}
       <select
         className="input-control form-select"
