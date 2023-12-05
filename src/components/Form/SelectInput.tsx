@@ -19,7 +19,7 @@ export const SelectInput: React.FC<FormInputProps> = ({
     <div className="form-group">
       {label && <label>{label}</label>}
       <select
-        className="form-control form-select"
+        className="input-control form-select"
         name={name}
         id={name}
         placeholder={placeholder}

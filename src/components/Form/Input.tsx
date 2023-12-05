@@ -34,7 +34,7 @@ const TextInput: React.FC<FormInputProps> = ({
       <div className="form-input">
         <input
           type={type}
-          className="form-control"
+          className="input-control"
           placeholder={placeholder}
           id={name}
           name={name}

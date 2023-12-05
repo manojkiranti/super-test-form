@@ -1,4 +1,4 @@
-.container {
+.grid-section {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -7,7 +7,7 @@
   max-width: 1100px;
 }
 
-.row {
+.grid-bar {
   display: flex;
   flex-wrap: wrap;
   margin-right: -1rem;
@@ -27,7 +27,7 @@
 }
 
 
-.col-12 {
+.grid-col-16 {
   flex: 0 0 100%;
   max-width: 100%;
 }

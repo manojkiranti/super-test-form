@@ -9,11 +9,11 @@ interface FormLayoutProps {
 
 export const FormLayout: React.FC<FormLayoutProps> = ({ children, heading }: FormLayoutProps) => {
   return (
-    <div className='container'>
-      <div className='row'>
-        <div className='col-12'>
+    <div className='grid-section'>
+      <div className='grid-bar'>
+        <div className='grid-col-16 '>
           <div className='form-body'>
-            <div className='text-center'>
+            <div className='text-align-center'>
               <Typography variant='h1' elementProps={{ className: 'mb-3' }}>Super test form</Typography>
               <Typography variant='h4' elementProps={{ className: 'text-subtitle', style: { marginBottom: '2.5rem' } }}>{heading}</Typography>
             </div>
